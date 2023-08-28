@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Meu primeiro site em Html</title>
+  </head>
+  <body>
+    <h1>Entendendo Comunicação Client x Server</h1>
+    <hr />
+
+    <h2 id="inicio">Índice</h2>
+    <ul>
+      <li><strong>Entendendo comunicação Client x Server</strong></li>
+      <li><a href="#surgimento">Como surgiu?</a></li>
+      <li><a href="#clients">Oque são Clients?</a></li>
+      <li><a href="#server">Oque são servidores?</a></li>
+      <li><a href="#linguagens">Linguagens de Programação?</a></li>
+      <li><strong>Introdução ao Html na Prática</strong></li>
+      <li><a href="#estrutura">Estrutura Básica do Html</a></li>
+      <li><a href="#textos">Textos</a></li>
+      <li><a href="#listas">Listas</a></li>
+      <li><a href="#links">Links</a></li>
+      <strong>
+        <li><a href="#referencias">Referências</a></li>
+      </strong>
+    </ul>
+    <h2>História da Web</h2>
+
+    <h3 id="surgimento">Como surgiu?</h3>
+
+    <p>
+      O surgimento da internet teve seu início em 1949, os Estados Unidos e a
+      Rússia protagonizavam um embate de termos ideológicos,
+      econômicos,militares, políticos e tecnológicos. Tal embate ficou conhecido
+      como Guerra Fria
+    </p>
+    <p>
+      Em 1960 Joseph Carl teorizou sobre uma rede onde todos poderiam se
+      comunicar, neste momento uma semente foi plantada. Foi desenvolvido então
+      um sistema de comunicação em pacotes que ao interligar múltiplos pontos de
+      interseccção, permitia o envio de pacotes entre si.
+    </p>
+
+    <p>
+      Tim Berners-Lee em 1989, uniu o hipertexto com TCP/IP criando assim a
+      World Wide Web.
+    </p>
+
+    <a href="#inicio">(voltar)</a>
+    <h2 id="clients">Oque são Clients?</h2>
+
+    <p>
+      Os clients podem ser definidos como os dispositivos que realizam a
+      solicitação ou iniciam a comunicação com o servidor. Após a conexão ser
+      estabelecida o servidor realiza o envio dos arquivos estáticos para o
+      client. O navegador então armazena esses dados em um cache no computador
+      para que não seja necessário uma nova busca pelos arquivos no servidor.
+    </p>
+    <p>
+      Os navegadores são também chamados de "browsers", são programas criado por
+      empresas para abrir ou executar arquivos.
+    </p>
+    <a href="#inicio">(voltar)</a>
+
+    <h2 id="server">Oque são servidores?</h2>
+
+    <p>
+      São computadores de grande procesamento que armazenam arquivos e
+      distribuem de acordo com a requisição feita.Existem diversos tipos de
+      servidores, entre eles temos o Servidor de arquivos que podem funcionar
+      sem internet e permitem que multiplos usuários possam ter acesso a
+      determinado arquivo. Os servidores web são voltados para internet e são
+      responsáveis por controlar como os usuários acessam os arquivos
+      hospedados.
+    </p>
+
+    <a href="#inicio">(voltar)</a>
+
+    <h2 id="linguagens">Linguagens de Programação</h2>
+
+    <p>
+      A Linguagem de programação pode ser resumida como uma linguagem escrita e
+      formal que define um conjuto de instruções para gerar programas. Existem
+      linguagens que são "Server-side" e "Client-side", como o proprio nome
+      sugere as linguagens Server-side são executadas no servidor. As linguagens
+      de Client-side são as linguagens que são executadas no navegador do
+      cliente. Um exemplo de linguagem é javascript que pode rodar dos dois
+      lados, tudo isso só é capaz graças a uma engine chamada v8 e Node.js no
+      caso de servidores.
+    </p>
+
+    <a href="#inicio">(voltar)</a>
+
+    <hr />
+    <h1>Introdução ao Html na Prática</h1>
+    <hr />
+
+    <h2 id="estrutura">Estrutura Básica do Html</h2>
+
+    <p>
+      O Html é formado por 3 partes, a tag html, a cabeça e o corpo.A tag head
+      contem os metadados, título e codificação de caracteres na página, essa
+      informações serão pre-carregadas antes que a página seja exibida ao
+      usuário, a tag body contem tudo que será exibido para o usuário.
+    </p>
+    <p>
+      As tags são elementos que definem o conteúdo da página, elas indicam para
+      os navegadores como o conteúdo deve ser exibido.As tags podem conter
+      atributos, elas são propriedades que um tag pode ter. Um exemplo de
+      atributo é a tag "id=" ela serve como identificador da tag sendo possível
+      realizar a alteração deste elemento de forma precisa.
+    </p>
+
+    <a href="#inicio">(voltar)</a>
+
+    <h2 id="textos">Textos</h2>
+
+    <p>
+      Na construção dos textos do site existem diversas tags que podem ser
+      utilizadas, uma dela é a tag &lt;h1&gt; que significa heading 1, ele atua
+      como um título para a página enquanto o &lt;h2&gt; atua como um subtítulo.
+      A tag "h" vai de &lt;h1&gt; até &lt;h6&gt;, outra tag que podemos utilizar
+      é a &lt;Blockquote&gt; que serve para fazermos citações.Para a criação de
+      parágrafos utilizamos a tag &lt;p&gt;, dentro dela todo texto que for
+      escrito será parte do parágrafo, diferente de como estamos
+      acostumados,dentro da tag &lt;p&gt; os espaços em branco não são
+      considerados, dessa forma mesmo que possua uma quebra de linha ela não irá
+      ser exibida ao usuário, a menos que utilize a tag &lt;br&gt; que significa
+      "break", ou pode utilizar propriedades do css.
+    </p>
+
+    <a href="#inicio">(voltar)</a>
+
+    <h2 id="listas">Listas</h2>
+
+    <p>
+      Existem dois tipos de listas em html são elas: <br />
+      <strong>&lt;ol&gt; (Lista ordenada)</strong> <br />
+      <strong>&lt;ul&gt; (Lista não ordenada)</strong> <br />
+      A diferença entre elas é que na lista ordenada a ordem importa, ela pode
+      ser utilizada por exemplo em listas de espera enquanto as listas não
+      ordenadas atuam como listas comuns, elas podem ser usadas em menus por
+      exemplo.
+    </p>
+
+    <a href="#inicio">(voltar)</a>
+
+    <h2 id="links">Links</h2>
+
+    <p>
+      Metaforicamente falando links são como ligações entre sites, eles podem te
+      direcionar de um local para outro. Em html utilizamos a tag &lt;a&gt; que
+      significa "anchor" ou "âncora", com ela podemos realizar a criação de
+      links. Da mesma forma que outras tags ela também possui atributos, porém
+      eles não se categorizam como atributos globais, um deles é o
+      <strong>target&equals;&quot;_blank&quot;</strong>.
+    </p>
+
+    <a href="#inicio">(voltar)</a>
+
+    <h2 id="referencias">Referências :</h2>
+    <ul>
+      <li>
+        <a href="https://www.youtube.com/watch?v=TNQsmPf24go" target="_blank"
+          >Como a internet funciona?</a
+        >
+      </li>
+
+      <li>
+        <a href="https://www.youtube.com/watch?v=WHIqflIy9pA" target="_blank"
+          >Client x Server
+        </a>
+      </li>
+
+      <li>
+        <a href="https://www.youtube.com/watch?v=FhedwpmefOw" target="_blank"
+          >Tags</a
+        >
+      </li>
+    </ul>
+    <a href="#inicio">(voltar)</a>
+  </body>
+</html>
